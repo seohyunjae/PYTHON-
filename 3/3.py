@@ -8,6 +8,7 @@ for i in range(n):
     # 현재 줄에서 '가장 작은 수' 찾기
     min_value = min(data)
     # '가장 작은 수'들 중에서 가장 큰 수 찾기
+    # 간단해서 좋다,,
     result = max(result, min_value)
 
 print(result) # 최종 답안 출력
