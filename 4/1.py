@@ -1,5 +1,5 @@
 # N 입력받기
-n = int(input())
+n = 5
 x, y = 1, 1
 plans = input().split()
 
