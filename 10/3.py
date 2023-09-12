@@ -13,6 +13,7 @@ def union_parent(parent, a, b):
         parent[b] = a
     else:
         parent[a] = b
+        parent[a] = b
 
 # 노드의 개수와 간선(Union 연산)의 개수 입력 받기
 v, e = map(int, input().split())
