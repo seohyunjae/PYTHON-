@@ -11,3 +11,4 @@ for x in data:
 
 # 만들 수 없는 금액 출력
 print(target)
+ 
