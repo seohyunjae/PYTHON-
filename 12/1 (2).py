@@ -2,8 +2,6 @@ n = input()
 length = len(n) # 점수값의 총 자릿수
 summary = 0
 
-
-
 # 왼쪽 부분의 자릿수 합 더하기
 for i in range(length // 2):
     summary += int(n[i])
