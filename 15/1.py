@@ -15,6 +15,6 @@ count = count_by_range(array, x, x)
 # 값이 x인 원소가 존재하지 않는다면
 if count == 0:
     print(-1)
-# 값이 x인 원소가 존재한다면
+# 값이 x인 원소가 존재한다면1
 else:
     print(count)
