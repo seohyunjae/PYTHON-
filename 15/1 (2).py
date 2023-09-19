@@ -7,7 +7,7 @@ def count_by_range(a, left_value, right_value):
     return right_index - left_index
 
 # 리스트 선언
-a = [1,2,3,3,3,3,4,4,8,9]
+a = [1,2,3,3,3,3,4,4,8,9,10]
 
 # 값이 4인 데이터 개수 출력
 print(count_by_range(a,4,4))
