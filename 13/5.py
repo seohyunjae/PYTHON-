@@ -11,6 +11,7 @@ max_value = -1e9
 # 깊이 우선 탐색 (DFS) 메서드
 def dfs(i, now):
     global min_value, max_value, add, sub, mul, div
+    global min_value, max_value, add, sub, mul, div
     # 모든 연산자를 다 사용한 경우, 최솟값과 최댓값 업데이트
     if i == n:
         min_value = min(min_value, now)
