@@ -12,7 +12,7 @@ for i in range(n):
         # 해당 위치에 바이러스가 존재하는 경우
         if graph[i][j] != 0:
             # (바이러스 종류, 시간, 위치 X, 위치 Y) 삽입
-            data.append((graph[i][j], 0, i, j))
+            data.append((graph[i][j], 0, i, j)) 
             
 # 정렬 이후에 큐로 옮기기(낮은 번호의 바이러스가 먼저 증식하므로)
 data.sort()
