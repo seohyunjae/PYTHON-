@@ -1,5 +1,3 @@
-# BOJ에서는 [언어]를 PyPy3로 설정하여 제출해주세요.
-
 n, m = map(int, input().split())
 data = [] # 초기 맵 리스트
 temp = [[0] * m for _ in range(n)] # 벽을 설치한 뒤의 맵 리스트
@@ -19,7 +17,7 @@ def virus(x, y):
         nx = x + dx[i]
         ny = y + dy[i]
         # 상, 하, 좌, 우 중에서 바이러스가 퍼질 수 있는 경우
-        if nx >= 0 and nx < n and ny >= 0 and ny < m:
+        if 0<= nx < n and 0 <=  ny < m:
             if temp[nx][ny] == 0:
                 # 해당 위치에 바이러스 배치하고, 다시 재귀적으로 수행
                 temp[nx][ny] = 2
